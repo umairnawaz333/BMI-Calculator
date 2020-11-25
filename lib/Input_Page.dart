@@ -230,7 +230,7 @@ class _InputPageState extends State<InputPage> {
               child: Center(
                 child: Text('Calculate', style: ConstentTextLabe3),
               ),
-              color: Colors.black,
+              color: Colors.deepOrange,
               height: 60,
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
