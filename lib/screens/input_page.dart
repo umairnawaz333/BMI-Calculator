@@ -213,23 +213,27 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          BottomButton(
-            buttonTitle: 'CALCULATE',
-            onTap: () {
-              CalculatorBrain calc =
-                  CalculatorBrain(height: height, weight: weight);
-
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => ResultsPage(
-                        bmiResult: calc.calculateBMI(),
-                        resultText: calc.getResult(),
-                        interpretation: calc.getInterpretation(),
-                      ),
-                ),
-              );
-            },
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),
+            child: BottomButton(
+              buttonTitle: 'CALCULATE',
+              onTap: () {
+                CalculatorBrain calc =
+                    CalculatorBrain(height: height, weight: weight);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ResultsPage(
+                          bmiResult: calc.calculateBMI(),
+                          resultText: calc.getResult(),
+                          interpretation: calc.getInterpretation(),
+                        ),
+                  ),
+                );
+              },
+            ),
           ),
         ],
       ),
