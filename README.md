@@ -1,10 +1,12 @@
 # BMI Calculator 💪
 
+SP17-BCS-053  B
+
 Assignment MAD After 1st sessional.
 
 ## Sample...
 
-
+<kbd><img src="screenshot.jpg" width="400"></kbd>
 
 ## What you will learn
 
