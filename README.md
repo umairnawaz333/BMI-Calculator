@@ -4,7 +4,7 @@ Assignment MAD After 1st sessional.
 
 ## Sample...
 
-<a src="screenshot.jpg" width="400" >
+<a src="screenshot.jpg" width="400" />
 
 ## What you will learn
 
