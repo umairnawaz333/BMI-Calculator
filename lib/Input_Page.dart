@@ -99,7 +99,7 @@ class _InputPageState extends State<InputPage> {
                               style: ConstentTextLabe2,
                             ),
                             Text(
-                              'cm',
+                              'm',
                               style: ConstentTextLabel,
                             ),
                           ],
@@ -108,7 +108,7 @@ class _InputPageState extends State<InputPage> {
                           value: slider_height.toDouble(),
                           min: 100.0,
                           max: 230.0,
-                          activeColor: Colors.green,
+                          activeColor: Colors.blue,
                           inactiveColor: Colors.white,
                           onChanged: (double newvalue) {
                             setState(() {
@@ -242,8 +242,6 @@ class _InputPageState extends State<InputPage> {
   }
 }
 
-
-
 class RoundIcon extends StatelessWidget {
   RoundIcon({@required this.icondata, this.onPress});
   final IconData icondata;
@@ -259,7 +257,7 @@ class RoundIcon extends StatelessWidget {
       elevation: 6,
       constraints: BoxConstraints.tightFor(height: 50.0, width: 50.0),
       shape: CircleBorder(),
-      fillColor: Colors.green,
+      fillColor: Colors.red,
     );
   }
 }
