@@ -1,5 +1,6 @@
 name: bmi_calculator
-description: A new Flutter application.
+description: My Updated Flutter application.
+
 
 version: 1.0.0+1
 
@@ -11,7 +12,9 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  font_awesome_flutter: ^8.4.0
+  font_awesome_flutter: ^8.10.0
+  rflutter_alert: ^1.0.2
+  flutter_spinkit: "^4.1.2"
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +22,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - images/gif.gif
+    - images/bmi.png
+    - images/bmi1.png
